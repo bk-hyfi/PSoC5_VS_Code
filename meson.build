@@ -15,33 +15,33 @@ endian     = 'little'
 # Creator_PostBuild_Minumum_Version: '2.13' - used for checking Creator_PostBuild minimum version, do not remove
 
 # Creator_PostBuild_Version_Line - automatic insert of Creator_PostBuild version. Do not edit the line below
-
+creatorPostBuildVersion = '2.20'
 
 # Creator_PostBuild_DateTime_Line - automatic insert of Creator Generated DateTime. Do not edit the line below
-
+creatorGeneratedDateTime = '2024-12-14 14:26:14'
 
 # Creator_PostBuild_devicePart_Line - automatic insert of device part by Creator_PostBuild. Do not edit the line below
-
+devicePart = 'CY8C5888LTI-LP097'
 
 # Creator_PostBuild_linkerFile_Line - automatic insert of linker file by Creator_PostBuild. Do not edit the line below
-
+linkerFile = './Generated_Source/PSoC5/cm3gcc.ld'
 
 # Creator_PostBuild_SVDfile_Line - automatic insert of SVD file by Creator_PostBuild. Do not edit the line below
-
+SVDfile = 'PSoC_Creator.svd'
 
 # Creator_PostBuild_prePostBuild_Lines - automatic insert of pre- and postbuild commands by Creator_PostBuild. Do not edit the two line below
-
-
+preBuildCommands = ''
+postBuildCommands = ''
 
 # set directories
 # Creator_PostBuild_Directory_Line - automatic insert of Creator Project main directory. Do not edit the line below
-
+creatorDirectory = 'PSoC_Creator.cydsn'
 
 # OTX_Extension_print(PROJECTNAME = '${workspaceFolderBasename}')
 PROJECTNAME = 'PSoC5_VS_Code'
 
 # OTX_Extension_print(ONETHINX_PACK_LOC = '${env:ONETHINX_PACK_LOC}')
-ONETHINX_PACK_LOC = '/Applications/OTX-Maestro'
+ONETHINX_PACK_LOC = 'C:/OTX-Maestro'
 
 CONFIG_DIR 			= ONETHINX_PACK_LOC + '/config'
 GCC_DIR 			= ONETHINX_PACK_LOC + '/gcc-arm/bin'
@@ -68,16 +68,39 @@ cyelftool       = find_program(BIN_DIR + '/cyelftool').path()
 
 assembler_args = [
 # Creator_PostBuild_AssemblerOptions_Start - automatic insert of assembler options by Creator_PostBuild. Do not edit below this line
+	'-mcpu=cortex-m3',
+	'-mthumb',
+	'-g',
+	'-W',
 # Creator_PostBuild_AssemblerOptions_End - automatic insert of assembler options by Creator_PostBuild. Do not edit above this line
 ]
 
 compiler_args     = [
 # Creator_PostBuild_CompilerOptions_Start - automatic insert of compiler options by Creator_PostBuild. Do not edit below this line
+	'-mcpu=cortex-m3',
+	'-mthumb',
+	'-g',
+	'-DDEBUG',
+	'-DCY_CORE_ID=0',
+	'-Wall',
+	'-ffunction-sections',
+	'-ffat-lto-objects',
+	'-Og',
 # Creator_PostBuild_CompilerOptions_End - automatic insert of compiler options by Creator_PostBuild. Do not edit above this line
 ]
 
 linker_args     = [
 # Creator_PostBuild_LinkerOptions_Start - automatic insert of linker options by Creator_PostBuild. Do not edit below this line
+	'-mcpu=cortex-m3',
+	'-mthumb',
+	'-L'+CREATOR_DIR+'/Generated_Source/PSoC5',
+	'-T'+CREATOR_DIR+'/Generated_Source/PSoC5/cm3gcc.ld',
+	'-specs=nano.specs',
+	'-Wl,--gc-sections',
+	'-g',
+	'-ffunction-sections',
+	'-Og',
+	'-ffat-lto-objects',
 # Creator_PostBuild_LinkerOptions_End - automatic insert of linker options by Creator_PostBuild. Do not edit above this line
 ]
 
@@ -86,6 +109,8 @@ include_dirs       = [
 # OTX_Extension_HeaderFiles_End - automatic insert of source files by the OTX VSCode extension. Do not edit above this line
 
 # Creator_PostBuild_IncludeFolders_Start - automatic insert of include header folders by Creator_PostBuild. Do not edit below this line
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5',
+	'PSoC_Creator.cydsn/',
 # Creator_PostBuild_IncludeFolders_End - automatic insert of include header folders by Creator_PostBuild. Do not edit above this line
 ]
 
@@ -93,9 +118,32 @@ sourcefiles       = [
 # manual insert of Creator_PostBuild stripped files
 
 # OTX_Extension_SourceFiles_Start - automatic insert of source files by the OTX VSCode extension. Do not edit below this line
+	'source/main.c',
 # OTX_Extension_SourceFiles_End - automatic insert of source files by the OTX VSCode extension. Do not edit above this line
 
 # Creator_PostBuild_SourceFiles_Start - automatic insert of source files by Creator_PostBuild. Do not edit below this line
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/cyfitter_cfg.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/cymetadata.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/Cm3Start.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/CyDmac.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/CyFlash.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/CyLib.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/cyPm.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/CySpc.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/cyutils.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/cy_em_eeprom.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/P2_0.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/P2_1.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/P2_2.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/P2_3.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/P2_4.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/P2_5.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/P2_6.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/P2_7.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/Timer_1.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/Timer_1_PM.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/Clock_1.c',
+	'PSoC_Creator.cydsn/Generated_Source/PSoC5/CyBootAsmGnu.s',
 # Creator_PostBuild_SourceFiles_End - automatic insert of source files by Creator_PostBuild. Do not edit above this line
 ]
 
@@ -109,6 +157,7 @@ cc = meson.get_compiler('c')
 
 link_deps = [
 # Creator_PostBuild_LibSources_Start - automatic insert of include source files by Creator_PostBuild. Do not edit below this line
+	declare_dependency( dependencies : cc.find_library('CyComponentLibrary', dirs : [CREATOR_DIR + '/./Export/ARM_GCC_Generic']) ),
 # Creator_PostBuild_LibSources_End - automatic insert of include source files by Creator_PostBuild. Do not edit above this line
 ]
 

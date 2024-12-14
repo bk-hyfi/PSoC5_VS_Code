@@ -1,6 +1,6 @@
 [binaries]
 # OTX_Extension_print(ONETHINX_PACK_LOC = '${env:ONETHINX_PACK_LOC}')
-ONETHINX_PACK_LOC = '/Applications/OTX-Maestro'
+ONETHINX_PACK_LOC = 'C:/OTX-Maestro'
 
 GCC_DIR = ONETHINX_PACK_LOC + '/gcc-arm/bin'
 c       = GCC_DIR + '/arm-none-eabi-gcc'
@@ -17,5 +17,5 @@ gdb     = GCC_DIR + '/arm-none-eabi-gdb'
 [host_machine]
 system     = 'none'
 cpu_family = 'arm'
-cpu        = 'cortex-m4'
+cpu        = 'cortex-m3'
 endian     = 'little'

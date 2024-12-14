@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+        
         {
             // In case OpenOCD fails programming, fully erase PSoC5 with PSoC Programmer
             "name": "Debug",
