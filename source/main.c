@@ -15,7 +15,12 @@ static volatile uint8_t dummy __attribute__ ((section(".cyeeprom"),unused));    
 int main(void)
 {
     Timer_1_Start();
-    while(1) {}
+    int x = 0;
+    while(1) {
+        x = x +1;
+        x++;
+        printf("x");
+    }
 }
 
 /* [] END OF FILE */

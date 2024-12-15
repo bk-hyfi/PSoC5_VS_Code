@@ -97,6 +97,30 @@
 <v>PSoC_Creator\PSoC_Creator\CortexM3</v>
 <v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541</v>
 <v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\P2_0.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\P2_1.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\P2_2.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\P2_3.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\P2_4.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\P2_5.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\P2_6.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\P2_7.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\Timer_1.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\Timer_1_PM.lst</v>
 <v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\PSoC_Creator.elf</v>
 <v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\PSoC_Creator.hex</v>
 <v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\PSoC_Creator.map</v>
@@ -107,6 +131,37 @@
 <VisibleNodeIds>
 <v>PSoC_Creator</v>
 <v>PSoC_Creator\PSoC_Creator</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\P2_0.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\P2_1.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\P2_2.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\P2_3.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\P2_4.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\P2_5.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\P2_6.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\P2_7.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\Timer_1.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\Listing Files\Timer_1_PM.lst</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\PSoC_Creator.elf</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\PSoC_Creator.hex</v>
+<v>PSoC_Creator\PSoC_Creator\CortexM3\ARM_GCC_541\Debug\PSoC_Creator.map</v>
+<v>PSoC_Creator\PSoC_Creator\PSoC_Creator.gpdsc</v>
 <v>PSoC_Creator\PSoC_Creator\PSoC_Creator.rpt</v>
 <v>PSoC_Creator\PSoC_Creator\PSoC_Creator_timing.html</v>
 </VisibleNodeIds>

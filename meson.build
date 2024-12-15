@@ -18,7 +18,7 @@ endian     = 'little'
 creatorPostBuildVersion = '2.20'
 
 # Creator_PostBuild_DateTime_Line - automatic insert of Creator Generated DateTime. Do not edit the line below
-creatorGeneratedDateTime = '2024-12-14 14:26:14'
+creatorGeneratedDateTime = '2024-12-14 18:29:19'
 
 # Creator_PostBuild_devicePart_Line - automatic insert of device part by Creator_PostBuild. Do not edit the line below
 devicePart = 'CY8C5888LTI-LP097'
@@ -41,7 +41,7 @@ creatorDirectory = 'PSoC_Creator.cydsn'
 PROJECTNAME = 'PSoC5_VS_Code'
 
 # OTX_Extension_print(ONETHINX_PACK_LOC = '${env:ONETHINX_PACK_LOC}')
-ONETHINX_PACK_LOC = 'C:/OTX-Maestro'
+ONETHINX_PACK_LOC = 'C:\OTX-Maestro'
 
 CONFIG_DIR 			= ONETHINX_PACK_LOC + '/config'
 GCC_DIR 			= ONETHINX_PACK_LOC + '/gcc-arm/bin'
@@ -118,7 +118,6 @@ sourcefiles       = [
 # manual insert of Creator_PostBuild stripped files
 
 # OTX_Extension_SourceFiles_Start - automatic insert of source files by the OTX VSCode extension. Do not edit below this line
-	'source/main.c',
 # OTX_Extension_SourceFiles_End - automatic insert of source files by the OTX VSCode extension. Do not edit above this line
 
 # Creator_PostBuild_SourceFiles_Start - automatic insert of source files by Creator_PostBuild. Do not edit below this line
